@@ -33,8 +33,7 @@ The dataset is highly imbalanced and contains substantial semantic overlap betwe
 - Duplicate rate: <0.01%
 
 Preprocessing steps:
-- cleaned missing / malformed labels
-- mapped fine-grained subjects to top-level domains
+- mapped fine-grained subjects to top-level domains to create adequate classification labels
 - removed duplicates
 - stratified train / validation / test splits
 
@@ -61,8 +60,8 @@ Preprocessing steps:
 
 | Model | Accuracy | Macro-F1 |
 |------|----------|----------|
-| TF-IDF + Logistic Regression | ~0.81 | ~0.57 |
-| DistilBERT (fine-tuned) | ~0.84 | ~0.72 |
+| TF-IDF + Logistic Regression | ~0.89 | ~0.70 |
+| DistilBERT (fine-tuned) | ~0.93 | ~0.83 |
 
 Key observations:
 - Transformer significantly improves recall for underrepresented classes
