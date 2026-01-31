@@ -1,8 +1,5 @@
-# arXiv_abstracts_classification_NLP
-A pet-project on article abstracts classification with NLP
-
-
 # arXiv Scientific Domain Classification
+A pet-project on article abstracts classification with NLP
 
 This project explores large-scale text classification of scientific abstracts from arXiv into major research domains using both classical machine learning and modern transformer-based approaches.
 
