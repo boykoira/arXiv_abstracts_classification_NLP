@@ -92,8 +92,10 @@ These patterns align with domain knowledge and motivate future extensions such a
 ## 📁 Repository Structure
 
 notebooks/ # main analysis notebook
+
 models/ # saved fine-tuned model and tokenizer
-results/ # metrics and visualizations
+
+results/ # metrics 
 
 ---
 
