@@ -91,4 +91,33 @@ These patterns align with domain knowledge and motivate future extensions such a
 
 ## 📁 Repository Structure
 
+notebooks/ # main analysis notebook
+models/ # saved fine-tuned model and tokenizer
+results/ # metrics and visualizations
+
+---
+
+## 🧠 Takeaways
+
+This project demonstrates:
+- principled baseline construction
+- careful evaluation beyond accuracy
+- transformer fine-tuning at scale
+- domain-informed error interpretation
+
+---
+
+## 📎 Requirements
+
+Key libraries:
+- transformers
+- datasets
+- scikit-learn
+- torch
+- numpy
+- matplotlib / seaborn
+
+See `requirements.txt` for details.
+
+
 
